@@ -1,0 +1,19 @@
+/* Make a minecraft scrollbar */
+::-webkit-scrollbar {
+  width: 20px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c0c0c1;
+  border-right: 3px solid #807f7e;
+  border-bottom: 3px solid #807f7e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
