@@ -126,8 +126,8 @@ const Options = () => {
             <MenuButton option={true} onClick={() => handleClick("https://www.linkedin.com/in/eliott-le-duc-291980205/")} margin={true}>LinkedIn</MenuButton>
           </ButtonContainer>
           <ButtonContainer>
-            <MenuButton option={true} onClick={() => handleClick("mailto:eliott.leduc2002@gmail.com")} margin={true}>eliott.leduc2002@gmail.com</MenuButton>
-            <MenuButton option={true} onClick={() => handleClick("tel:0769602038")} margin={true}>0769602038</MenuButton>
+            <MenuButton option={true} onClick={() => handleClick("mailto:")} margin={true}></MenuButton>
+            <MenuButton option={true} onClick={() => handleClick("tel:")} margin={true}></MenuButton>
           </ButtonContainer>
         </MidContainer>
         <BottomContainer>
